@@ -1,0 +1,144 @@
+.shell {
+  border-radius: 12px;
+  border-color: #f2e9e4;
+  border-style: solid;
+  border-width: 4px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  font-size: 32px;
+}
+
+.fadein {
+  animation-duration: 0.5s;
+  animation-name: fade-in;
+}
+
+@keyframes fade-in {
+  from {
+    scale: 25%;
+  }
+
+  20% {
+    rotate: -60deg;
+  }
+
+  40% {
+    rotate: 30deg;
+    scale: 75%;
+  }
+
+  60% {
+    rotate: -15deg;
+  }
+
+  80% {
+    rotate: 5deg;
+  }
+
+  to {
+    scale: 100%;
+  }
+}
+
+.kernel {
+  font-weight: 700;
+  text-align: center;
+  white-space: normal;
+  line-height: 0.9;
+  user-select: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+}
+
+.empty {
+  background-color: #fec89a;
+}
+
+.v1 {
+  background-color: #ffd7ba;
+  color: #012a4a;
+  font-size: 42px !important;
+}
+
+.v2 {
+  background-color: #ffe5d9;
+  color: #012a4a;
+  font-size: 42px !important;
+}
+
+.v4 {
+  background-color: #ece4db;
+  color: #012a4a;
+  font-size: 42px !important;
+}
+
+.v8 {
+  background-color: #d8e2dc;
+  color: #012a4a;
+  font-size: 42px !important;
+}
+
+.v16 {
+  background-color: #e8e8e4;
+  color: #013a63;
+  font-size: 36px !important;
+}
+
+.v32 {
+  background-color: #f8edeb;
+  color: #013a63;
+  font-size: 36px !important;
+}
+
+.v64 {
+  background-color: #fae1dd;
+  color: #013a63;
+  font-size: 36px !important;
+}
+
+.v128 {
+  background-color: #fcd5ce;
+  color: #5390d9;
+}
+
+.v256 {
+  background-color: #fec5bb;
+  color: #5390d9;
+}
+
+.v512 {
+  background-color: #ffbd00;
+  color: #5390d9;
+}
+
+.v1024 {
+  background-color: #e76f51;
+  color: #e2eafc;
+}
+
+.v2048 {
+  background-color: #ff5400;
+  color: #e2eafc;
+}
+
+.vx {
+  background-color: #ff0054;
+  color: #e2eafc;
+}
+
+.vxx {
+  background-color: #8338ec;
+  color: #e2eafc;
+  font-size: 28px !important;
+}
+
+.vxxx {
+  background-color: #8338ec;
+  color: #e2eafc;
+  font-size: 24px !important;
+}
