@@ -1,3 +1,3 @@
 # PWA-1024
 
-Use Turborepo + Vite to create a PWA 1024 Game.
+Use Monorepo + Vite.js to create a PWA 1024 Game.
