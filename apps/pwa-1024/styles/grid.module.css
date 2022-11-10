@@ -1,5 +1,5 @@
 .container {
-  margin-block: 6px;
+  touch-action: none;
   display: flex;
   flex-direction: column;
   background-color: #f2e9e4;
