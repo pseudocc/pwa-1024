@@ -143,13 +143,14 @@ export default class Core {
         if (cell.is_null) {
           continous_null++;
         } else if (continous_null) {
-          if (j == continous_null) {
+          if (j === continous_null) {
             backward = true;
             if (forward) return [true, true];
           } else if (j != grid.size) return [true, true];
+          continous_null = 0;
         } else if (j && Cell.can_merge(cell, cells[j - 1])) return [true, true];
       }
-      if (continous_null !== grid.size) {
+      if (continous_null && continous_null !== grid.size) {
         forward = true;
         if (backward) return [true, true];
       }

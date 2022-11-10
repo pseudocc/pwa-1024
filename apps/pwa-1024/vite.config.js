@@ -18,6 +18,7 @@ function genius_config(env) {
       short_name: "1024",
       theme_color: "#e76f51",
       background_color: "#83c5be",
+      start_url: "/pwa-1024/",
       display: "standalone",
       icons: [
         {
@@ -38,6 +39,7 @@ function genius_config(env) {
     },
   };
   return defineConfig({
+    base: "/pwa-1024/",
     plugins: [VitePWA(pwa_options)],
     resolve: {
       alias: {
