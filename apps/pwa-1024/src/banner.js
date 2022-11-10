@@ -34,6 +34,24 @@ const banner_arch = {
             },
           ],
         },
+        {
+          name: "version",
+          tag: "span",
+          props: [
+            {
+              name: "innerText",
+              value: pwa.version,
+            },
+            {
+              name: "className",
+              value: css["version"],
+            },
+            {
+              name: "href",
+              value: `https://github.com/pseudocc/pwa-1024/tree/pwa-1024-${pwa.version}`,
+            },
+          ],
+        },
       ],
     },
     {
