@@ -36,7 +36,7 @@ const banner_arch = {
         },
         {
           name: "version",
-          tag: "span",
+          tag: "a",
           props: [
             {
               name: "innerText",
