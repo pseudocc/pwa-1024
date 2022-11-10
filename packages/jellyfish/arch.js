@@ -10,7 +10,7 @@
  * @property {string} name
  * @property {number?} count
  * @property {JammyProp[]} props
- * @property {Jammy[]} children
+ * @property {JammyArch[]} children
  */
 var JammyArch;
 

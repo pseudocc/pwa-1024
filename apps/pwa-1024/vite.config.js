@@ -2,6 +2,7 @@ import { defineConfig } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
 
 import path from "node:path";
+import { version } from "./package.json";
 
 /**
  * @param {import('vite').ConfigEnv} env
@@ -40,6 +41,9 @@ function genius_config(env) {
   };
   return defineConfig({
     base: "/pwa-1024/",
+    define: {
+      pwa: { version: `v${version}` },
+    },
     plugins: [VitePWA(pwa_options)],
     resolve: {
       alias: {

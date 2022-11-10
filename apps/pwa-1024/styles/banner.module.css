@@ -2,6 +2,8 @@
   color: #012a4a;
   margin-top: 12px;
   display: flex;
+  flex-wrap: wrap;
+  gap: 15%;
   align-items: center;
   width: 360px;
   font-weight: 700;
@@ -12,9 +14,17 @@
 
 .header {
   font-size: 54px;
-  text-align: center;
+  text-align: end;
   flex: 2;
   user-select: none;
+}
+
+.version {
+  font-size: small;
+  font-weight: normal;
+  display: block;
+  color: #012a4a;
+  text-decoration: none;
 }
 
 .boards {
