@@ -40,7 +40,7 @@ const banner_arch = {
           props: [
             {
               name: "innerText",
-              value: pwa.version,
+              value: __PWA__.version,
             },
             {
               name: "className",
@@ -48,7 +48,7 @@ const banner_arch = {
             },
             {
               name: "href",
-              value: `https://github.com/pseudocc/pwa-1024/tree/pwa-1024-${pwa.version}`,
+              value: `https://github.com/pseudocc/pwa-1024/tree/pwa-1024-${__PWA__.version}`,
             },
           ],
         },

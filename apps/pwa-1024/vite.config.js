@@ -42,7 +42,7 @@ function genius_config(env) {
   return defineConfig({
     base: "/pwa-1024/",
     define: {
-      pwa: { version: `v${version}` },
+      __PWA__: { version: `v${version}` },
     },
     plugins: [VitePWA(pwa_options)],
     resolve: {
