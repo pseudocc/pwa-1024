@@ -44,7 +44,7 @@ export default function create_elem(arch, managed, seqi = 0) {
       for (let i = 0; i < child.count; i++) {
         /** @type {JammyManaged} */
         const managed_item = {};
-        const elem_item = create_elem(child, managed_item);
+        const elem_item = create_elem(child, managed_item, i);
         managed_collection.push(managed_item[child.name]);
         root.appendChild(elem_item);
       }
