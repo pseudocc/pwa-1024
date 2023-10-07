@@ -13,7 +13,10 @@ function genius_config(env) {
   /** @type {import('vite-plugin-pwa').VitePWAOptions} */
   const pwa_options = {
     mode: env.mode,
-    includeAssets: ["favicon.svg"],
+    includeAssets: [
+      "favicon.ico",
+      "apple-touch-icon.png",
+    ],
     manifest: {
       name: "1024 Game",
       short_name: "1024",
